@@ -46,11 +46,13 @@ Here
     --surface: #1c1c1c;
     --surface-alt: #242424;
 
-    /* Typography */
+    /* Text Colors */
 
     --text: #f5f5f5;
     --text-muted: #a1a1a1;
     --heading: #ffffff;
+
+    /* Typography */
 
     --font-heading: "Poppins", sans-serif;
     --font-body: "Inter", sans-serif;
@@ -62,6 +64,7 @@ Here
     --fs-xl: 1.5rem;
     --fs-2xl: 2rem;
     --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
 
     --fw-light: 300;
     --fw-regular: 400;
@@ -70,6 +73,10 @@ Here
     --fw-bold: 700;
 
     --line-height: 1.6;
+
+    /* Focus */
+
+    --focus-ring: rgba(212, 175, 55, .35);
 
     /* Borders */
 
@@ -110,6 +117,10 @@ Here
     --shadow-lg:
       0 20px 45px rgba(0,0,0,.35);
 
+    /* Overlay */
+
+    --overlay: rgba(0,0,0,.65);
+
     /* Spacing */
 
     --space-1: .25rem;
@@ -122,10 +133,19 @@ Here
     --space-8: 4rem;
     --space-9: 6rem;
 
+    /* Sections */
+
+    --section-padding: var(--space-8) 0;
+
     /* Layout */
 
     --container-sm: 768px;
     --container-md: 1100px;
     --container-lg: 1280px;
+
+    /* Disabled Colors */
+
+    --disabled: #555555;
+    --disabled-text: #888888;
 
   }
