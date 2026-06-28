@@ -1,0 +1,127 @@
+/* ./bookingTemplate/rt-ui/components/navigation.css */
+
+/*
+RT-UI Framework
+Version: 0.1.0
+
+File:
+navigation.css
+
+Description:
+Reusable navigation component for every
+Business Systems Collection project.
+
+Author:
+RodriguezTech Studios
+*/
+
+
+/*=====================================
+  Navbar
+======================================*/
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: var(--space-5) 0;
+
+}
+
+
+/*=====================================
+  Logo
+======================================*/
+
+.logo {
+
+    font-family: var(--font-heading);
+
+    font-size: var(--fs-xl);
+
+    font-weight: var(--fw-bold);
+
+    color: var(--heading);
+
+}
+
+
+/*=====================================
+  Navigation
+======================================*/
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-6);
+
+}
+
+
+/*=====================================
+  Navigation Links
+======================================*/
+
+.nav-links a {
+
+    color: var(--text);
+
+    font-weight: var(--fw-medium);
+
+    transition:
+    color var(--transition-base);
+
+}
+
+.nav-links a:hover {
+
+    color: var(--primary);
+
+}
+
+
+/*=====================================
+  Navigation CTA
+======================================*/
+
+.nav-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-4);
+
+}
+
+
+/*=====================================
+  Mobile
+======================================*/
+
+@media (max-width:768px) {
+
+    .navbar {
+
+        flex-direction: column;
+
+        gap: var(--space-4);
+
+    }
+
+    .nav-links {
+
+        flex-direction: column;
+
+        gap: var(--space-3);
+
+    }
+
+}
