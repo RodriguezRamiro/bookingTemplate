@@ -1,4 +1,4 @@
-/* ./bookingTemplate/rt-ui/animations.css */
+/* ./bookingTemplate/rt-ui/z-index.css */
 
 
 /*
@@ -6,7 +6,7 @@ RT-UI Framework
 Version: 0.1.0
 
 File:
-animations.css
+z-index.css
 
 Description:
 Global design tokens used across every
@@ -17,14 +17,18 @@ RodriguezTech Studios
 */
 
 
-/* Transition */
+/* Layers */
 
 :root {
 
-    --transition-fast: .15s ease;
+    --z-dropdown: 100;
 
-    --transition-base: .3s ease;
+    --z-sticky: 200;
 
-    --transition-slow: .5s ease;
+    --z-overlay: 500;
+
+    --z-modal: 1000;
+
+    --z-tooltip: 1500;
 
   }

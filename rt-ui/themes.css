@@ -1,0 +1,34 @@
+/* ./bookingTemplate/rt-ui/themes.css */
+
+
+/*
+RT-UI Framework
+Version: 0.1.0
+
+File:
+themes.css
+
+Description:
+Global design tokens used across every
+Business Systems Collection project.
+
+Author:
+RodriguezTech Studios
+*/
+
+
+/* Light Theme */
+
+[data-theme="light"] {
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --surface-alt: #f1f5f9;
+
+    --text: #334155;
+    --heading: #0f172a;
+
+    --border: #e2e8f0;
+    --border-light: #cbd5e1;
+
+    /* Brand colors stay the same */
+  }

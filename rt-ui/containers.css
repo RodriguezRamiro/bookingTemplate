@@ -1,4 +1,4 @@
-/* ./bookingTemplate/rt-ui/animations.css */
+/* ./bookingTemplate/rt-ui/containers.css */
 
 
 /*
@@ -6,7 +6,7 @@ RT-UI Framework
 Version: 0.1.0
 
 File:
-animations.css
+containers.css
 
 Description:
 Global design tokens used across every
@@ -17,14 +17,14 @@ RodriguezTech Studios
 */
 
 
-/* Transition */
+/* Layout */
 
 :root {
 
-    --transition-fast: .15s ease;
+    --container-sm: 768px;
 
-    --transition-base: .3s ease;
+    --container-md: 1100px;
 
-    --transition-slow: .5s ease;
+    --container-lg: 1280px;
 
   }

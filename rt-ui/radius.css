@@ -1,0 +1,30 @@
+/* ./bookingTemplate/rt-ui/bordr-radius.css */
+
+
+/*
+RT-UI Framework
+Version: 0.1.0
+
+File:
+radius.css
+
+Description:
+Global design tokens used across every
+Business Systems Collection project.
+
+Author:
+RodriguezTech Studios
+*/
+
+
+/* Radius */
+
+:root {
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+    --radius-round: 999px;
+
+  }
