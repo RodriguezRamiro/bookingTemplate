@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Booking Template | Schedule Your Appointment</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+<header>
+
+  <nav class="navbar">
+
+    <div class="logo">
+      BookFlow
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#booking">Book</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+</header>
+
+
+<main>
+
+  <!-- ================= HERO ================= -->
+
+  <section id="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Professional Appointment Scheduling Made Simple
+      </h1>
+
+      <p>
+        Book services online in seconds using our streamlined scheduling
+        experience.
+      </p>
+
+      <a href="#booking" class="btn-primary">
+        Schedule Appointment
+      </a>
+
+    </div>
+
+    <div class="hero-image">
+
+      <!-- Placeholder -->
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= SERVICES ================= -->
+
+  <section id="services">
+
+    <div class="section-title">
+
+      <h2>Our Services</h2>
+
+      <p>
+        Select the service that best fits your needs.
+      </p>
+
+    </div>
+
+    <div class="service-grid">
+
+      <article class="service-card">
+
+        <h3>Basic Consultation</h3>
+
+        <p>30 Minute Session</p>
+
+      </article>
+
+      <article class="service-card">
+
+        <h3>Premium Service</h3>
+
+        <p>60 Minute Session</p>
+
+      </article>
+
+      <article class="service-card">
+
+        <h3>VIP Experience</h3>
+
+        <p>90 Minute Session</p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= BOOKING ================= -->
+
+  <section id="booking">
+
+    <div class="section-title">
+
+      <h2>Book Your Appointment</h2>
+
+      <p>
+        Choose a date, time, and complete your reservation request.
+      </p>
+
+    </div>
+
+
+    <div class="booking-wrapper">
+
+      <div class="calendar-panel">
+
+        <label for="appointment-date">
+
+          Appointment Date
+
+        </label>
+
+        <input
+          id="appointment-date"
+          type="date"
+        >
+
+      </div>
+
+
+      <div class="timeslot-panel">
+
+        <h3>Select a Time</h3>
+
+        <div class="timeslots">
+
+          <button type="button">9:00 AM</button>
+          <button type="button">10:00 AM</button>
+          <button type="button">11:00 AM</button>
+          <button type="button">1:00 PM</button>
+          <button type="button">2:00 PM</button>
+          <button type="button">3:00 PM</button>
+
+        </div>
+
+      </div>
+
+
+      <form id="booking-form">
+
+        <label for="name">
+          Full Name
+        </label>
+
+        <input
+          id="name"
+          type="text"
+          placeholder="John Smith"
+          required
+        >
+
+        <label for="email">
+          Email
+        </label>
+
+        <input
+          id="email"
+          type="email"
+          placeholder="example@email.com"
+          required
+        >
+
+        <label for="phone">
+          Phone Number
+        </label>
+
+        <input
+          id="phone"
+          type="tel"
+          placeholder="(555) 555-5555"
+          required
+        >
+
+        <label for="notes">
+          Additional Notes
+        </label>
+
+        <textarea
+          id="notes"
+          rows="5"
+          placeholder="Anything you'd like us to know?"
+        ></textarea>
+
+        <button
+          class="btn-primary"
+          type="submit">
+
+          Reserve Appointment
+
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= BENEFITS ================= -->
+
+  <section id="benefits">
+
+    <div class="section-title">
+
+      <h2>Why Choose Us?</h2>
+
+    </div>
+
+    <div class="benefits-grid">
+
+      <div class="benefit-card">
+
+        <h3>Easy Scheduling</h3>
+
+        <p>
+          Book your appointment in under one minute.
+        </p>
+
+      </div>
+
+      <div class="benefit-card">
+
+        <h3>Professional Service</h3>
+
+        <p>
+          Experienced professionals ready to help.
+        </p>
+
+      </div>
+
+      <div class="benefit-card">
+
+        <h3>Flexible Availability</h3>
+
+        <p>
+          Convenient appointment times that fit your schedule.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+
+  <section id="contact">
+
+    <div class="section-title">
+
+      <h2>Contact</h2>
+
+    </div>
+
+    <p>Email: info@business.com</p>
+
+    <p>Phone: (555) 555-5555</p>
+
+    <p>Monday - Friday | 9:00 AM - 5:00 PM</p>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <p>
+
+    © 2026 BookFlow. All Rights Reserved.
+
+  </p>
+
+</footer>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
