@@ -17,18 +17,75 @@ RodriguezTech Studios
 */
 
 
-/* Light Theme */
+/* Default Theme (Light) */
 
-[data-theme="light"] {
+:root {
+
+    /* Brand */
+
+    --primary: #d4af37;
+    --primary-hover: #c49d2d;
+
+    --secondary: #f1f5f9;
+    --secondary-hover: #e2e8f0;
+
+    --accent: #d4af37;
+
+    /* Surfaces */
+
     --background: #f8fafc;
     --surface: #ffffff;
     --surface-alt: #f1f5f9;
 
+    /* Text */
+
     --text: #334155;
+    --text-muted: #64748b;
     --heading: #0f172a;
+
+    /* Borders */
 
     --border: #e2e8f0;
     --border-light: #cbd5e1;
 
-    /* Brand colors stay the same */
-  }
+    /* Overlay */
+
+    --overlay: rgba(15,23,42,.55);
+
+    /* Disabled */
+
+    --disabled: #e2e8f0;
+    --disabled-text: #94a3b8;
+
+}
+
+
+/* Dark Theme */
+
+[data-theme="dark"] {
+
+    --primary: #d4af37;
+    --primary-hover: #c49d2d;
+
+    --secondary: #1c1c1c;
+    --secondary-hover: #262626;
+
+    --accent: #d4af37;
+
+    --background: #0f0f0f;
+    --surface: #1c1c1c;
+    --surface-alt: #242424;
+
+    --text: #f5f5f5;
+    --text-muted: #a1a1a1;
+    --heading: #ffffff;
+
+    --border: #323232;
+    --border-light: #444444;
+
+    --overlay: rgba(0,0,0,.65);
+
+    --disabled: #555555;
+    --disabled-text: #888888;
+
+}
