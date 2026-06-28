@@ -1,0 +1,208 @@
+/* ./bookingTemplate/rt-ui/typography.css */
+
+/*
+RT-UI Framework
+Version: 0.1.0
+
+File:
+typography.css
+
+Description:
+Global typography styles used across every
+Business Systems Collection project.
+
+Author:
+RodriguezTech Studios
+*/
+
+
+/*=====================================
+  Document Typography
+======================================*/
+
+body {
+
+    font-family: var(--font-body);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-regular);
+    line-height: var(--line-height);
+
+    color: var(--text);
+    background: var(--background);
+
+}
+
+
+/*=====================================
+  Headings
+======================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: var(--font-heading);
+
+    font-weight: var(--fw-bold);
+
+    color: var(--heading);
+
+    line-height: 1.2;
+
+    margin-bottom: var(--space-4);
+
+}
+
+h1 {
+
+    font-size: var(--fs-4xl);
+
+}
+
+h2 {
+
+    font-size: var(--fs-3xl);
+
+}
+
+h3 {
+
+    font-size: var(--fs-2xl);
+
+}
+
+h4 {
+
+    font-size: var(--fs-xl);
+
+}
+
+h5 {
+
+    font-size: var(--fs-lg);
+
+}
+
+h6 {
+
+    font-size: var(--fs-base);
+
+}
+
+
+/*=====================================
+  Paragraphs
+======================================*/
+
+p {
+
+    margin-bottom: var(--space-4);
+
+    color: var(--text);
+
+}
+
+
+/*=====================================
+  Links
+======================================*/
+
+a {
+
+    color: inherit;
+
+    transition: color var(--transition-base);
+
+}
+
+a:hover {
+
+    color: var(--primary);
+
+}
+
+
+/*=====================================
+  Lists
+======================================*/
+
+ul,
+ol {
+
+    margin-bottom: var(--space-4);
+
+}
+
+
+/*=====================================
+  Small Text
+======================================*/
+
+small {
+
+    font-size: var(--fs-sm);
+
+    color: var(--text-muted);
+
+}
+
+
+/*=====================================
+  Strong Text
+======================================*/
+
+strong {
+
+    font-weight: var(--fw-bold);
+
+}
+
+
+/*=====================================
+  Emphasis
+======================================*/
+
+em {
+
+    font-style: italic;
+
+}
+
+
+/*=====================================
+  Blockquotes
+======================================*/
+
+blockquote {
+
+    padding-left: var(--space-5);
+
+    border-left: 4px solid var(--primary);
+
+    color: var(--text-muted);
+
+    font-style: italic;
+
+}
+
+
+/*=====================================
+  Code
+======================================*/
+
+code {
+
+    font-family: monospace;
+
+    font-size: .9em;
+
+}
+
+pre {
+
+    overflow-x: auto;
+
+}

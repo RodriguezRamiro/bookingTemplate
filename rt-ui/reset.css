@@ -1,6 +1,5 @@
 /* ./bookingTemplate/rt-ui/reset.css */
 
-
 /*
 RT-UI Framework
 Version: 0.1.0
@@ -9,9 +8,163 @@ File:
 reset.css
 
 Description:
-Global design tokens used across every
-Business Systems Collection project.
+Browser reset and normalization used across
+every Business Systems Collection project.
 
 Author:
 RodriguezTech Studios
 */
+
+
+/*=====================================
+  Universal Box Model
+======================================*/
+
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+
+/*=====================================
+  Margin & Padding Reset
+======================================*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*=====================================
+  Document Defaults
+======================================*/
+
+html {
+
+    scroll-behavior: smooth;
+
+    -webkit-text-size-adjust: 100%;
+
+}
+
+body {
+
+    min-height: 100vh;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+/*=====================================
+  Typography
+======================================*/
+
+body,
+button,
+input,
+textarea,
+select {
+
+    font: inherit;
+
+}
+
+
+/*=====================================
+  Lists
+======================================*/
+
+ul,
+ol {
+
+    list-style: none;
+
+}
+
+
+/*=====================================
+  Links
+======================================*/
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+/*=====================================
+  Media
+======================================*/
+
+img,
+picture,
+video,
+canvas,
+svg {
+
+    display: block;
+
+    max-width: 100%;
+
+}
+
+
+/*=====================================
+  Forms
+======================================*/
+
+input,
+button,
+textarea,
+select {
+
+    border: none;
+
+    outline: none;
+
+    background: none;
+
+}
+
+
+button {
+
+    cursor: pointer;
+
+}
+
+
+/*=====================================
+  Tables
+======================================*/
+
+table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+
+
+/*=====================================
+  Textareas
+======================================*/
+
+textarea {
+
+    resize: vertical;
+
+}
