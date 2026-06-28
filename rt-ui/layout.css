@@ -1,6 +1,5 @@
 /* ./bookingTemplate/rt-ui/layout.css */
 
-
 /*
 RT-UI Framework
 Version: 0.1.0
@@ -9,9 +8,128 @@ File:
 layout.css
 
 Description:
-Global design tokens used across every
+Global layout utilities used across every
 Business Systems Collection project.
 
 Author:
 RodriguezTech Studios
 */
+
+
+/*=====================================
+  Main Container
+======================================*/
+
+.container {
+
+    width: min(100% - 2rem, var(--container-lg));
+
+    margin-inline: auto;
+
+}
+
+
+/*=====================================
+  Sections
+======================================*/
+
+section {
+
+    padding: var(--section-padding);
+
+}
+
+
+/*=====================================
+  Grid
+======================================*/
+
+.grid {
+
+    display: grid;
+
+    gap: var(--space-6);
+
+}
+
+.grid-2 {
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+}
+
+.grid-3 {
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+}
+
+.grid-4 {
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+}
+
+
+/*=====================================
+  Flex
+======================================*/
+
+.flex {
+
+    display: flex;
+
+}
+
+.flex-center {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.flex-between {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.flex-column {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+/*=====================================
+  Stack
+======================================*/
+
+.stack > * + * {
+
+    margin-top: var(--space-4);
+
+}
+
+
+/*=====================================
+  Flow
+======================================*/
+
+.flow > * + * {
+
+    margin-top: var(--space-6);
+
+}
