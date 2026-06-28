@@ -30,29 +30,9 @@ Here
 
 :root {
 
-    /* Brand */
-
-    --primary: #d4af37;
-    --primary-hover: #c49d2d;
-
-    --secondary: #1c1c1c;
-    --secondary-hover: #262626;
-
-    --accent: #d4af37;
-
-    /* Surfaces */
-
-    --background: #0f0f0f;
-    --surface: #1c1c1c;
-    --surface-alt: #242424;
-
-    /* Text Colors */
-
-    --text: #f5f5f5;
-    --text-muted: #a1a1a1;
-    --heading: #ffffff;
-
-    /* Typography */
+    /*=====================================
+      Typography
+    =====================================*/
 
     --font-heading: "Poppins", sans-serif;
     --font-body: "Inter", sans-serif;
@@ -74,54 +54,9 @@ Here
 
     --line-height: 1.6;
 
-    /* Focus */
-
-    --focus-ring: rgba(212, 175, 55, .35);
-
-    /* Borders */
-
-    --border: #323232;
-    --border-light: #444444;
-
-    /* Status */
-
-    --success: #22c55e;
-    --warning: #f59e0b;
-    --danger: #ef4444;
-    --info: #3b82f6;
-
-
-    /* Radius */
-
-    --radius-sm: 6px;
-    --radius-md: 12px;
-    --radius-lg: 18px;
-    --radius-xl: 24px;
-    --radius-round: 999px;
-
-
-    /* Layers */
-
-    --z-dropdown: 100;
-    --z-sticky: 200;
-    --z-overlay: 500;
-    --z-modal: 1000;
-    --z-tooltip: 1500;
-
-    /* Shadows */
-
-    --shadow-sm:
-      0 2px 6px rgba(0,0,0,.15);
-    --shadow-md:
-      0 10px 30px rgba(0,0,0,.25);
-    --shadow-lg:
-      0 20px 45px rgba(0,0,0,.35);
-
-    /* Overlay */
-
-    --overlay: rgba(0,0,0,.65);
-
-    /* Spacing */
+    /*=====================================
+      Spacing
+    =====================================*/
 
     --space-1: .25rem;
     --space-2: .5rem;
@@ -133,19 +68,50 @@ Here
     --space-8: 4rem;
     --space-9: 6rem;
 
-    /* Sections */
-
-    --section-padding: var(--space-8) 0;
-
-    /* Layout */
+    /*=====================================
+      Layout
+    =====================================*/
 
     --container-sm: 768px;
     --container-md: 1100px;
     --container-lg: 1280px;
 
-    /* Disabled Colors */
+    --section-padding: var(--space-8) 0;
 
-    --disabled: #555555;
-    --disabled-text: #888888;
+    /*=====================================
+      Radius
+    =====================================*/
 
-  }
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+    --radius-round: 999px;
+
+    /*=====================================
+      Shadows
+    =====================================*/
+
+    --shadow-sm: 0 2px 6px rgba(0,0,0,.15);
+    --shadow-md: 0 10px 30px rgba(0,0,0,.25);
+    --shadow-lg: 0 20px 45px rgba(0,0,0,.35);
+
+    /*=====================================
+      Animation
+    =====================================*/
+
+    --transition-fast: .15s ease;
+    --transition-base: .30s ease;
+    --transition-slow: .50s ease;
+
+    /*=====================================
+      Layers
+    =====================================*/
+
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-overlay: 500;
+    --z-modal: 1000;
+    --z-tooltip: 1500;
+
+}
