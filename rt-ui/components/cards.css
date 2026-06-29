@@ -1,5 +1,4 @@
-/* ./bookingTemplate/rt-ui/cards.css */
-
+/* ./bookingTemplate/rt-ui/components/cards.css */
 
 /*
 RT-UI Framework
@@ -9,9 +8,122 @@ File:
 cards.css
 
 Description:
-Global design tokens used across every
+Reusable card components for every
 Business Systems Collection project.
 
 Author:
 RodriguezTech Studios
 */
+
+
+/*=====================================
+  Base Card
+======================================*/
+
+.card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-4);
+
+    padding: var(--space-6);
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-sm);
+
+    transition:
+        transform var(--transition-base),
+        box-shadow var(--transition-base),
+        border-color var(--transition-base);
+
+}
+
+
+/*=====================================
+  Hover
+======================================*/
+
+.card-hover:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+
+/*=====================================
+  Flat
+======================================*/
+
+.card-flat {
+
+    box-shadow: none;
+
+}
+
+
+/*=====================================
+  Elevated
+======================================*/
+
+.card-elevated {
+
+    box-shadow: var(--shadow-lg);
+
+}
+
+
+/*=====================================
+  Bordered
+======================================*/
+
+.card-bordered {
+
+    border: 2px solid var(--primary);
+
+}
+
+
+/*=====================================
+  Card Header
+======================================*/
+
+.card-header {
+
+    padding-bottom: var(--space-4);
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+
+/*=====================================
+  Card Body
+======================================*/
+
+.card-body {
+
+    flex: 1;
+
+}
+
+
+/*=====================================
+  Card Footer
+======================================*/
+
+.card-footer {
+
+    padding-top: var(--space-4);
+
+    border-top: 1px solid var(--border);
+
+}
