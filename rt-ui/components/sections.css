@@ -1,5 +1,4 @@
-/* ./bookingTemplate/rt-ui/sections.css */
-
+/* ./bookingTemplate/rt-ui/components/sections.css */
 
 /*
 RT-UI Framework
@@ -9,7 +8,7 @@ File:
 sections.css
 
 Description:
-Global design tokens used across every
+Reusable section components for every
 Business Systems Collection project.
 
 Author:
@@ -17,3 +16,96 @@ RodriguezTech Studios
 */
 
 
+/*=====================================
+  Base Section
+======================================*/
+
+.section {
+
+    padding: var(--section-padding);
+
+}
+
+
+/*=====================================
+  Section Header
+======================================*/
+
+.section-header {
+
+    max-width: 700px;
+
+    margin: 0 auto var(--space-7);
+
+    text-align: center;
+
+}
+
+
+/*=====================================
+  Section Title
+======================================*/
+
+.section-title {
+
+    margin-bottom: var(--space-3);
+
+}
+
+
+/*=====================================
+  Section Subtitle
+======================================*/
+
+.section-subtitle {
+
+    color: var(--text-muted);
+
+    font-size: var(--fs-lg);
+
+}
+
+
+/*=====================================
+  Background Variants
+======================================*/
+
+.section-light {
+
+    background: var(--surface);
+
+}
+
+.section-dark {
+
+    background: var(--background);
+
+}
+
+.section-accent {
+
+    background: var(--surface-alt);
+
+}
+
+
+/*=====================================
+  Text Alignment
+======================================*/
+
+.section-center {
+
+    text-align: center;
+
+}
+
+
+/*=====================================
+  Divider
+======================================*/
+
+.section-divider {
+
+    border-top: 1px solid var(--border);
+
+}
