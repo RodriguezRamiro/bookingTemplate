@@ -1,0 +1,22 @@
+/* ./bookingTemplate/style.css */
+
+/* RT-UI */
+
+@import "./rt-ui/reset.css";
+@import "./rt-ui/variables.css";
+@import "./rt-ui/themes.css";
+@import "./rt-ui/typography.css";
+@import "./rt-ui/layout.css";
+
+@import "./rt-ui/components/navigation.css";
+@import "./rt-ui/components/buttons.css";
+@import "./rt-ui/components/cards.css";
+@import "./rt-ui/components/forms.css";
+@import "./rt-ui/components/sections.css";
+
+@import "./rt-ui/utilities/utilities.css";
+@import "./rt-ui/utilities/animations.css";
+
+/* Template */
+
+@import "./booking.css";
