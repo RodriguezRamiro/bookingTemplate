@@ -1,5 +1,4 @@
-/* ./bookingTemplate/rt-ui/forms.css */
-
+/* ./bookingTemplate/rt-ui/components/forms.css */
 
 /*
 RT-UI Framework
@@ -9,9 +8,184 @@ File:
 forms.css
 
 Description:
-Global design tokens used across every
+Reusable form components for every
 Business Systems Collection project.
 
 Author:
 RodriguezTech Studios
 */
+
+
+/*=====================================
+  Form
+======================================*/
+
+.form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-5);
+
+}
+
+
+/*=====================================
+  Form Group
+======================================*/
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-2);
+
+}
+
+
+/*=====================================
+  Labels
+======================================*/
+
+.form-label {
+
+    font-size: var(--fs-sm);
+
+    font-weight: var(--fw-semibold);
+
+    color: var(--heading);
+
+}
+
+
+/*=====================================
+  Inputs
+======================================*/
+
+.form-control,
+.form-select,
+.form-textarea {
+
+    width: 100%;
+
+    padding: .85rem 1rem;
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-md);
+
+    transition:
+        border-color var(--transition-base),
+        box-shadow var(--transition-base);
+
+}
+
+
+/*=====================================
+  Focus
+======================================*/
+
+.form-control:focus,
+.form-select:focus,
+.form-textarea:focus {
+
+    border-color: var(--primary);
+
+    box-shadow: 0 0 0 3px var(--focus-ring);
+
+}
+
+
+/*=====================================
+  Placeholder
+======================================*/
+
+.form-control::placeholder,
+.form-textarea::placeholder {
+
+    color: var(--text-muted);
+
+}
+
+
+/*=====================================
+  Textarea
+======================================*/
+
+.form-textarea {
+
+    min-height: 140px;
+
+    resize: vertical;
+
+}
+
+
+/*=====================================
+  Checkboxes & Radios
+======================================*/
+
+.form-checkbox,
+.form-radio {
+
+    accent-color: var(--primary);
+
+}
+
+
+/*=====================================
+  Help Text
+======================================*/
+
+.form-help {
+
+    font-size: var(--fs-sm);
+
+    color: var(--text-muted);
+
+}
+
+
+/*=====================================
+  Validation
+======================================*/
+
+.form-error {
+
+    color: var(--danger);
+
+    font-size: var(--fs-sm);
+
+}
+
+.form-success {
+
+    color: var(--success);
+
+    font-size: var(--fs-sm);
+
+}
+
+
+/*=====================================
+  Disabled
+======================================*/
+
+.form-control:disabled,
+.form-select:disabled,
+.form-textarea:disabled {
+
+    background: var(--disabled);
+
+    color: var(--disabled-text);
+
+    cursor: not-allowed;
+
+}
