@@ -1,54 +1,192 @@
-/* booking.css */
+/* ./booking.css */
 
 /*
 Booking Template
 
-Contains ONLY styles that are unique
+Contains ONLY styles unique
 to booking applications.
 
-Uses RT-UI components whenever possible.
+Uses RT-UI whenever possible.
+
+RodriguezTech Studios
 */
 
 /*=====================================
   Hero
 ======================================*/
 
+#hero .container{
+
+  display:grid;
+
+  grid-template-columns:1.1fr .9fr;
+
+  align-items:center;
+
+  gap:var(--space-8);
+
+}
+
+.hero-content{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:var(--space-5);
+
+  max-width:650px;
+
+}
+
+.hero-image{
+
+  min-height:420px;
+
+  background:var(--surface);
+
+  border:1px solid var(--border);
+
+  border-radius:var(--radius-xl);
+
+  box-shadow:var(--shadow-md);
+
+}
 
 /*=====================================
-  Hero Layout
+Services
 ======================================*/
 
+.service-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:var(--space-6);
+
+}
 
 /*=====================================
-  Booking Layout
+Booking Layout
 ======================================*/
 
+.booking-wrapper{
+
+  display:grid;
+
+  grid-template-columns:300px 1fr;
+
+  gap:var(--space-7);
+
+  align-items:start;
+
+}
+
+.calendar-panel{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:var(--space-4);
+
+}
+
+.timeslot-panel{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:var(--space-5);
+
+}
+
+.timeslots{
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:var(--space-3);
+
+}
+
+#booking-form{
+
+  margin-top:var(--space-6);
+
+}
 
 /*=====================================
-  Calendar
+Benefits
 ======================================*/
 
+.benefits-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(3,1fr);
+
+  gap:var(--space-6);
+
+}
 
 /*=====================================
-  Time Slots
+Contact
 ======================================*/
 
+#contact p{
+
+  margin-bottom:var(--space-3);
+
+}
 
 /*=====================================
-  Booking Summary
+Footer
 ======================================*/
 
+footer{
+
+  padding:var(--space-6) 0;
+
+  border-top:1px solid var(--border);
+
+  text-align:center;
+
+}
 
 /*=====================================
-  Contact
+Responsive
 ======================================*/
 
+@media (max-width:900px){
 
-/*=====================================
-  Footer
-======================================*/
+  #hero .container{
 
+      grid-template-columns:1fr;
 
-/*=====================================
-  Responsive
-======================================*/
+      text-align:center;
+
+  }
+
+  .service-grid{
+
+      grid-template-columns:1fr;
+
+  }
+
+  .benefits-grid{
+
+      grid-template-columns:1fr;
+
+  }
+
+  .booking-wrapper{
+
+      grid-template-columns:1fr;
+
+  }
+
+}
